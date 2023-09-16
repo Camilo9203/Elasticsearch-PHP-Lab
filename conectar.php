@@ -1,7 +1,7 @@
 <?php
-//Cargamos las librerias
+//Cargamos las librerías
 require 'vendor/autoload.php';
-//Llamamos las librerias de elasticsearch
+//Llamamos las librerías de elasticsearch
 use Elasticsearch\ClientBuilder;
 //Inicializamos el cliente de elasticsearch
 $client = ClientBuilder::create()->build();
