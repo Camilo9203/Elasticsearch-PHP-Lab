@@ -7,10 +7,10 @@ use Elasticsearch\ClientBuilder;
 $client = ClientBuilder::create()->build();
 //Si la conexion fue exitosa mostramos este mensaje
 if ($client) {
-    echo 'Conexion exitosa</br>';
+    echo 'Conexión exitosa</br>';
 }
 //Si no se pudo realizar la conexión mostramos este otro mensaje y nos salimos
 else{
-    echo 'Conexion fallida</br>';
+    echo 'Conexión fallida</br>';
     exit;
 }
